@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <!--指定数据的驱动包-->
+<!--  <classPathEntry location="D:\mysql-connector-java-5.1.0-bin.jar" />-->
+
+  <context id="Mysql2Tables" targetRuntime="MyBatis3">
+    <commentGenerator>
+      <property name="suppressDate" value="true"></property>
+      <property name="suppressAllComments" value="true"></property>
+    </commentGenerator>
+
+   <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+        connectionURL="jdbc:mysql://localhost:3306/lethouse"
+        userId="root"
+        password="">
+    </jdbcConnection>
+
+    <javaTypeResolver >
+      <property name="forceBigDecimals" value="false" />
+    </javaTypeResolver>
+
+    <!--指定生成实体所有在的包-->
+    <javaModelGenerator targetPackage="cn.kgc.house.domain" targetProject="houseApp\src\main\java">
+      <property name="enableSubPackages" value="true" />
+      <property name="trimStrings" value="true" />
+    </javaModelGenerator>
+
+      <!--指定sql映射文件的位置-->
+      <sqlMapGenerator targetPackage="cn.kgc.house.dao"  targetProject="houseApp\src\main\java">
+      <property name="enableSubPackages" value="true" />
+    </sqlMapGenerator>
+
+      <!--指定接口存放的位置-->
+    <javaClientGenerator type="XMLMAPPER" targetPackage="cn.kgc.house.dao"  targetProject="houseApp\src\main\java">
+      <property name="enableSubPackages" value="true" />
+    </javaClientGenerator>
+
+  <!--添加需要反向工程的表-->
+  <table  tableName="district" enableCountByExample="false" enableUpdateByExample="false"
+          enableDeleteByExample="false" enableSelectByExample="true" selectByExampleQueryId="false">
+  </table>
+  <table  tableName="house" enableCountByExample="true" enableUpdateByExample="false"
+          enableDeleteByExample="false" enableSelectByExample="true" selectByExampleQueryId="false">
+  </table>
+      <table  tableName="street" enableCountByExample="true" enableUpdateByExample="false"
+              enableDeleteByExample="false" enableSelectByExample="true" selectByExampleQueryId="false">
+      </table>
+      <table  tableName="type" enableCountByExample="true" enableUpdateByExample="false"
+              enableDeleteByExample="false" enableSelectByExample="true" selectByExampleQueryId="false">
+      </table>
+      <table  tableName="users" enableCountByExample="true" enableUpdateByExample="false"
+              enableDeleteByExample="false" enableSelectByExample="true" selectByExampleQueryId="false">
+      </table>
+</context>
+
+</generatorConfiguration>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="autogen" />
+        <module name="day_0531" />
+        <module name="demo" />
+        <module name="day_0602-2" />
+        <module name="house" />
+        <module name="day_0528-3" />
+        <module name="day_0528-2" />
+        <module name="houseApp" />
+        <module name="demo2" />
+        <module name="mybatisplus" />
+        <module name="vuetest" />
+        <module name="day_0602" />
+        <module name="day_0529" />
+        <module name="day_0528" />
+        <module name="day_0526" />
+        <module name="day_0525" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day_0528 (1)" target="1.8" />
+      <module name="test1\demo1" target="1.8" />
+      <module name="U4start" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="autogen" options="-parameters" />
+      <module name="day_0526" options="-parameters" />
+      <module name="day_0528" options="-parameters" />
+      <module name="day_0528 (1)" options="-parameters" />
+      <module name="day_0528-2" options="-parameters" />
+      <module name="day_0528-3" options="-parameters" />
+      <module name="day_0529" options="-parameters" />
+      <module name="day_0531" options="-parameters" />
+      <module name="day_0602" options="-parameters" />
+      <module name="day_0602-2" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="demo2" options="-parameters" />
+      <module name="house" options="-parameters" />
+      <module name="houseApp" options="-parameters" />
+      <module name="mybatisplus" options="-parameters" />
+      <module name="test1\demo1" options="-parameters" />
+      <module name="vuetest" options="-parameters" />
+    </option>
+  </component>
+</project>

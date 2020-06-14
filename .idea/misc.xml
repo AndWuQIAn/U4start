@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/day_0525/pom.xml" />
+        <option value="$PROJECT_DIR$/day_0526/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/demo2/pom.xml" />
+        <option value="$PROJECT_DIR$/day_0528/pom.xml" />
+        <option value="$PROJECT_DIR$/day_0528-2/pom.xml" />
+        <option value="$PROJECT_DIR$/day_0528-3/pom.xml" />
+        <option value="$PROJECT_DIR$/vuetest/pom.xml" />
+        <option value="$PROJECT_DIR$/day_0529/pom.xml" />
+        <option value="$PROJECT_DIR$/day_0531/pom.xml" />
+        <option value="$PROJECT_DIR$/day_0602/pom.xml" />
+        <option value="$PROJECT_DIR$/day_0602-2/pom.xml" />
+        <option value="$PROJECT_DIR$/houseApp/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus/pom.xml" />
+        <option value="$PROJECT_DIR$/autogen/pom.xml" />
+        <option value="$PROJECT_DIR$/../GitCode/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../gitstudy/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

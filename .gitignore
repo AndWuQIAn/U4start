@@ -1,0 +1,15 @@
+# Project exclude paths
+/autogen/target/
+/day_0525/target/
+/day_0526/target/
+/day_0528/target/
+/day_0528-2/target/
+/day_0528-3/target/
+/day_0529/target/
+/day_0531/target/
+/day_0602/target/
+/day_0602-2/target/
+/demo/target/
+/demo2/target/
+/houseApp/target/
+/vuetest/target/
